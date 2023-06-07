@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Пясъците на Времето</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="shortcut icon" type="image/png" href="assests/favicon.png"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Обратно</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">За групата</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Музика</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Връзка с нас</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    </div>
+    <!-- <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">За групата</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Музика</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Връзка с нас</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="assests/BannerFirstAlbum.jpg.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <a href="https://sandsoftime2023.bandcamp.com/album/-"><h3>И​з​г​у​б​е​н​о​т​о Ц​а​р​с​т​в​о</h3></a>
+      <p><b>Нов албум! Слушайте сега!</b></p>   
+    </div>
+  </div>
+  <!-- <div class="mySlides w3-display-container w3-center">
+    <img src="assets/img/apocalypticWorldBanner.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <p><b>Coming Soon!</b></p>    
+    </div>
+  </div> -->
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <img src="assests/Logo.png"/>
+    <p class="w3-opacity"><i>Животът без музика би бил грешка.</i></p>
+    <p class="w3-justify"><center>Проект от един човек. Създаден на 10/04/2023 в Саутхемптън, Хемпшир.</center></p>
+    <div class="w3-row w3-padding-32">
+      <!-- <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div> -->
+    </div>
+  </div>
+<!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">МУЗИКА</h2>
+      <p class="w3-opacity w3-center"><i>Пълна дискография<br></i></p><br>
+      <div class="discography">
+        <a href="https://sandsoftime2023.bandcamp.com/album/-"><img src="assests/FrontCoverLostRealm.png" class ="beResponsive2"></a>
+      </div>  
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Ticket Modal -->
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">СВЪРЖЕТЕ СЕ С НАС</h2>
+    <p class="w3-opacity w3-center"><i>Фен? Пуснете бележка!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Саутхемптън, Хемпшир<br>
+        <i class="fa fa-phone" style="width:30px"></i> Телефон: +44 7405 500464<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Е-поща: aleksboboychev@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <!-- <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form> -->
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<!-- <img src="assets/img/contatct-bg.jpg" class="w3-image w3-greyscale-min" style="width:100%" width="50" height="50"> -->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+	<a href="https://www.facebook.com/aleks.boboychev.31"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+	<footer>&copy; Copyright 2022 Abnormal Studio</footer>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
